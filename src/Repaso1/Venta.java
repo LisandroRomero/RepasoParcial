@@ -5,7 +5,7 @@ import java.util.Date;
 public class Venta {
     private Date fecha;
 
-    public Venta(Date fecha) {
+    public Venta(Date fecha, ClienteVIP clienteVip) {
         this.fecha = fecha;
     }
 

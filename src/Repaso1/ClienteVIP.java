@@ -1,17 +1,21 @@
 package Repaso1;
 
-public class ClienteVIP {
-    protected float descuetno;
+public class ClienteVIP extends Cliente {
+    protected float descuento;
 
-    public ClienteVIP(float descuetno) {
-        this.descuetno = descuetno;
+    public ClienteVIP(float descuento) {
+        this.descuento = descuento;
+    }
+    public ClienteVIP(String nombre, String email, float descuento) {
+        super(nombre, email); // super -> Llama al constructor de Cliente
+        this.descuento = descuento;
     }
 
-    public float getDescuetno() {
-        return descuetno;
+    public double getDescuento() {
+        return descuento;
     }
 
-    public void setDescuetno(float descuetno) {
-        this.descuetno = descuetno;
+    public void setDescuento(double descuento) {
+        this.descuento = (float) descuento;
     }
 }

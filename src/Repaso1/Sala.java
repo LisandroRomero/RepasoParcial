@@ -3,6 +3,9 @@ package Repaso1;
 public class Sala {
     private int numero;
     private int capacidad;
+    public Sala(){
+
+    }
 
     public Sala(int numero, int capacidad) {
         this.numero = numero;

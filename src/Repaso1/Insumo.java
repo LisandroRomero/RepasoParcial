@@ -1,10 +1,10 @@
 package Repaso1;
 
-public class insumo {
+public class Insumo {
     private String nombre;
     private double precio;
 
-    public insumo(String nombre, double precio) {
+    public Insumo(String nombre, double precio) {
         this.nombre = nombre;
         this.precio = precio;
     }

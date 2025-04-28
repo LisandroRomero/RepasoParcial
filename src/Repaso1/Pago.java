@@ -24,4 +24,6 @@ public class Pago {
     public void setMonto(double monto) {
         this.monto = monto;
     }
+
+
 }
